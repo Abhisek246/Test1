@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+}
+
+.signup-page{
+    width: 448px;
+    height: 1024px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-pic{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 88px;
+    left: 174px;
+    background: #D9D9D9;
+    border-radius: 50%;
+}
+
+.signup{
+    position: absolute;
+    width: 94px;
+    height: 28px;
+    top: 225px;
+    left: 184px;
+    color: #030229;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.google-signup{
+    position: absolute;
+    width: 164px;
+    top: 313px;
+    left: 50px;
+    background: #F7F7F8;
+    border-radius: 10px;
+    text-align: center;
+    padding: 16px 0;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.google-signup i, .fb-signup i{
+    margin-right: 20px;
+}
+
+.fb-signup{
+    position: absolute;
+    width: 162px;
+    padding: 16px 0;
+    top: 313px;
+    left: 236px;
+    border-radius: 10px;
+    background: #F7F7F8;
+    text-align: center;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.separation{
+    position: absolute;
+    width: 348px;
+    height: 22px;
+    top: 388px;
+    left: 50px;
+    text-align: center;
+}
+
+.separation span{
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.name{
+    position: absolute;
+    width: 348px;
+    height: 81px;
+    top: 440px;
+    left: 50px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.name-fill, .email-fill, .password-fill{ 
+    width: 348px;
+    height: 50px;
+    background-color: #F7F7F8;
+    border-radius: 10px;
+    border: none;
+}
+
+.email{
+    position: absolute;
+    width: 348px;
+    height: 80px;
+    top: 541px;
+    left: 50px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.password{
+    position: absolute;
+    width: 348px;
+    height: 80px;
+    top: 636.6px;
+    left: 50px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.agree{
+    position: absolute;
+    width: 347px;
+    height: 44px;
+    top: 750px;
+    left: 50px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.signup-btn{
+    position: absolute;
+    width: 348px;
+    height: 50px;
+    top: 815px;
+    left: 50px;
+    border-radius: 10px;
+    background-color: rgb(255, 212, 22);
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+}
+
+.check-signup{
+    position: absolute;
+    width: 231px;
+    height: 22px;
+    top: 895px;
+    left: 108px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}

@@ -1,0 +1,310 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    width: 300px;
+    height: 1024px;
+    gap: 0px;
+    border: 1px solid #BABABA; 
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.logo{
+    width: 300px;
+    height: 74px;
+    border-bottom: 0.5px solid #BABABA;
+    display: flex;
+    align-items: center;
+}
+
+.logo-top{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.logo-text{
+    width: 123px;
+    height: 22px;
+    font-family: "Urbanist", sans-serif;
+    font-weight: 600;
+    color: #FEAC31;
+    font-size: 20px;
+}
+
+.logo-icon{
+    width: 40px;
+    height: 40px;
+    background-color: #FEAC31;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.sidebar-content{
+    position: absolute;
+    left: 40px;
+}
+
+.sidebar-menu img{
+    height: 24px;
+    width: 24px;
+    margin-right: 15px;
+    color: gray;
+}
+
+.sidebar-menu{
+    display: flex;
+    align-items: center;
+    font-family: "Urbanist";
+    font-size: 15px;
+    font-weight: 400;
+    color: #7D848C;
+    padding-top: 24px;
+    cursor: pointer;
+}
+
+.menu{
+    font-family: "Urbanist";
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    color: gray;
+    margin-top: 40px;
+}
+
+.sidebar-bottom{
+    position: absolute;
+    top: 920px;
+    left: 40px;
+}
+
+.menu-bottom{
+   padding-top: 20px;
+}
+
+
+.about-container img{
+    border-radius: 50%;
+    width: 240px;
+    height: 240px;
+    position: absolute;
+    top: 133px;
+    left: 438px;
+}
+
+.about{
+    position: absolute;
+    top: 380px;
+    left: 372px;
+}
+ 
+.about-fill{
+    background-color: #F7F7F8;
+    width: 372px;
+    height: 331px;
+}
+
+.text{
+    font-family: "Roboto";
+    font-size: 14.36px;
+    font-weight: 500;
+    color: #858585;
+    position: absolute;
+    padding: 20px;
+}
+
+.about-head, .pricing-head{
+    font-family: "Roboto";
+    font-size: 15.56px;
+    font-weight: 600;
+    line-height: 24.23px;
+}
+
+.profile-head{
+    position: absolute;
+    width: 177px;
+    height: 29px;
+    top: 44px;
+    left: 375px;
+    display: flex;
+    align-items: center;
+}
+
+.profile-head img{
+    height: 40px;
+    width: 40px;
+}
+
+.profile-head span{
+    font-family: "Roboto";
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.pricing{
+    position: absolute;
+    top: 742px;
+    left: 372px;
+}
+
+.pricing-fill{
+    background-color: #F7F7F8;
+    width: 372px;
+    height: 121px;
+    display: flex;
+}
+
+.pricing-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.pricing-details div{
+    position: relative;
+    font-family: "Roboto";
+    font-size: 14.36px;
+    font-weight: 500;
+    color: #858585;
+    margin: 5px 0 0 15px;
+}
+
+.line{
+    margin-left: 120px; 
+   border: 0.5px solid #B8B8B8;
+    height: 121px;
+}
+
+.price{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+.price div{
+    margin: 5px 0 0 15px;
+    color: #858585;
+}
+
+.name{
+    position: absolute;
+    top: 133px;
+    left: 781px;
+}
+
+.blank-fill{ 
+    width: 460.1px;
+    height: 35px;
+    background: #F7F7F8;
+    font-family: Roboto;
+    font-size: 14.36px;
+    font-weight: 500;
+    color: #858585;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    border: none;
+}
+
+.blank-head{
+    font-family: "Roboto";
+    font-size: 15.56px;
+    font-weight: 600;
+    line-height: 24.23px;
+}
+
+.email{
+    position: absolute;
+    top: 210.21px;
+    left: 781px;
+}
+
+.number{
+    position: absolute;
+    top: 287.41px;
+    left: 781px;
+}
+
+.id{
+    position: absolute;
+    top: 442.19px;
+    left: 781px;
+}
+
+.password{
+    position: absolute;
+    top: 519.68px;
+    left: 781px;
+}
+
+.categories{
+    position: absolute;
+    top: 597.16px;
+    left: 781px;
+}
+
+.timings{
+    position: absolute;
+    top: 736px;
+    left: 781px;
+}
+
+.gender{
+    position: absolute;
+    top: 364.98px;
+    left: 781px;
+}
+
+.dob{
+    position: absolute;
+    top: 364.98px;
+    left: 1040.87px;
+}
+
+
+.cancel-btn{
+    position: absolute;
+    width: 110px;
+    height: 41.86px;
+    top: 930px;
+    left: 1001px;
+    color: #FEAC31;
+    background-color: white;
+    border-radius: 5px;
+    font-family: Roboto;
+    font-size: 20.31px;
+    font-weight: 600;
+    border: 1.52px solid #FEAC31;
+    cursor: pointer;
+}
+
+
+.save-btn{
+    position: absolute;
+    width: 110px;
+    height: 41.86px;
+    top: 930px;
+    left: 1148.44px;
+    background-color: #FEAC31;
+    border-radius: 5px;
+    font-family: "Roboto";
+    font-size: 20.31px;
+    font-weight: 400;
+    border: 1.52px solid #FEAC31;
+    cursor: pointer;
+}
+
+.notification-bell{
+    position: absolute;
+    width: 26px;
+    height: 26.37px;
+    top: 32.83px;
+    left: 1280px;
+}

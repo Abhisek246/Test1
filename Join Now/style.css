@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+}
+
+.joinnow-cont{
+    position: absolute;
+    width: 726px;
+    height: 726px;
+    top: 149px;
+    left: 357px;
+    background-color: white;
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-pic{
+    width: 100px;
+    height: 100px;   
+    border-radius: 50%;
+    background: #D9D9D9;
+    margin-top: 100px;
+}
+
+.signup{
+    margin-top: 30px;
+    height: 33px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.join{ 
+    height: 22px;
+    margin-top: 70px;
+    margin-left: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.fill-1, .fill-2{
+    margin-top: 10px;
+    margin-left: 120px;
+    width: 502px;
+    height: 50px;
+    background: #F7F7F8;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: gray;
+}
+
+.fill-1 i, .fill-2 i{
+    margin: 0 10px;
+}
+
+.fill-2 img{
+    margin: 0 6px;
+    width: 20.5px;
+    height: 15.5px;
+}
+
+.btn{
+    border-radius: 10px;
+    background-color: rgb(248, 217, 42);
+    width: 169px;
+    height: 50px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 50px 280px;
+}
